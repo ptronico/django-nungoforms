@@ -1,0 +1,4 @@
+<div class="checkbox">
+  <label>{{ field }}{{ field.label }}</label>
+  {% if field.errors %}<div>{% for error in field.errors %}<span class="validation-message">{{ error }}</span>{% endfor %}</div>{% endif %}
+</div>

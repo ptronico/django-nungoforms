@@ -1,0 +1,6 @@
+<div class="form-group">
+  <label class="control-label">{{ field.label }}</label>
+  {{ field }}
+  {% for error in field.errors %}<span class="validation-message">{{ error }}</span>{% endfor %}
+  {% if field.help_text %}<span class="help-block">{{ field.help_text }}</span>{% endif %}
+</div>
