@@ -12,10 +12,10 @@ setup(
     version='0.1',
     packages=['nungoforms'],
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT',
     description='Nungoforms is a very simple Django app to super-DRY your templates.',
     long_description=README,
-    url='https://www.nungo.com.br/',
+    url='https://github.com/ptronico/django-nungoforms',
     author='Pedro Vasconcelos',
     author_email='ptronico@gmail.com',
     classifiers=[
