@@ -20,7 +20,7 @@ setup(
     description='Nungoforms is a very simple Django app to super-DRY your templates.',
     long_description=README,
     url='https://github.com/ptronico/django-nungoforms',
-    download_url='https://github.com/ptronico/django-nungoforms/archive/0.1.tar.gz',
+    download_url='https://github.com/ptronico/django-nungoforms/archive/0.1.1.tar.gz',
     author='Pedro Vasconcelos',
     author_email='ptronico@gmail.com',
     classifiers=[
