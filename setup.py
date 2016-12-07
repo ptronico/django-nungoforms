@@ -9,14 +9,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-nungoforms',
-    version='0.1.1',
+    version='0.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT',
     description='Nungoforms is a very simple Django app to super-DRY your templates.',
     long_description=README,
     url='https://github.com/ptronico/django-nungoforms',
-    download_url='https://github.com/ptronico/django-nungoforms/archive/0.1.1.tar.gz',
+    download_url='https://github.com/ptronico/django-nungoforms/archive/0.1.tar.gz',
     author='Pedro Vasconcelos',
     author_email='ptronico@gmail.com',
     classifiers=[
